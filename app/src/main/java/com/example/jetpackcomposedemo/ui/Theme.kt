@@ -2,6 +2,7 @@ package com.example.jetpackcomposedemo.ui
 
 import androidx.compose.Composable
 import androidx.ui.foundation.isSystemInDarkTheme
+import androidx.ui.graphics.Color
 import androidx.ui.material.MaterialTheme
 import androidx.ui.material.darkColorPalette
 import androidx.ui.material.lightColorPalette
@@ -16,6 +17,7 @@ private val LightColorPalette = lightColorPalette(
         primary = purple500,
         primaryVariant = purple700,
         secondary = teal200
+
 
         /* Other default colors to override
     background = Color.White,
