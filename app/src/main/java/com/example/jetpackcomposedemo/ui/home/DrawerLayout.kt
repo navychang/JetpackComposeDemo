@@ -18,7 +18,6 @@ fun DrawerLayout(
     Surface(color = Color.LightGray) {
         Column(modifier = Modifier.fillMaxSize()) {
             Spacer(Modifier.preferredHeight(24.dp))
-            Icon(modifier = Modifier.padding(16.dp), asset = Icons.Default.Close)
             Divider(color = MaterialTheme.colors.onSurface.copy(alpha = .2f))
             DrawerButton(
                 icon = Icons.Filled.Home,
